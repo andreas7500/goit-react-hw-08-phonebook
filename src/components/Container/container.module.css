@@ -1,13 +1,13 @@
-.container {
+/* .container {
   padding: 15px;
-}
+} */
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100%;
-  width: 900px;
+  /* max-width: 100%;
+  width: 600px; */
   background-color: #def4f5;
   border-radius: 5px;
   margin: 0 auto;

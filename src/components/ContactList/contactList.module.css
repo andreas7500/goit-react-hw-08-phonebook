@@ -1,14 +1,7 @@
-/* .list {
-  list-style: none;
-
-  padding-left: 450px;
-  padding-right: 450px;
-  padding-top: 40px;
-} */
-
 .list {
   display: flex;
   flex-direction: column;
+
   width: 500px;
   padding: 0;
   gap: 15px;
@@ -16,8 +9,10 @@
 
 .item {
   display: flex;
+  font-size: 18px;
   justify-content: space-between;
   align-items: center;
+  gap: 45px;
 }
 
 .name {
@@ -28,9 +23,10 @@
   font-weight: 700;
 }
 
-.phone {
+.number {
   display: inline-flex;
   flex-grow: 2;
+  justify-content: center;
   width: 35%;
   color: rgb(47, 173, 166);
   font-weight: 500;
@@ -39,7 +35,7 @@
 }
 
 .button {
-  padding: 2px 10px;
+  padding: 5px 18px;
   border: 1px solid black;
   border-radius: 3px;
   color: aliceblue;

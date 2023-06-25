@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-right: 20px;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.batton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 17px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+  background-color: #a2dede;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+}

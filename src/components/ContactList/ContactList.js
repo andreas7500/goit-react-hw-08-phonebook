@@ -7,7 +7,7 @@ import {
   selectIsLoading,
 } from 'redux/selectors';
 import styles from './contactList.module.css';
-import { fetchContacts, deleteContact } from 'redux/operations';
+import { fetchContacts, deleteContact } from 'redux/contactsSlice/operations';
 
 export const ContactList = () => {
   const dispatch = useDispatch();
@@ -32,7 +32,7 @@ export const ContactList = () => {
         {filteredContacts.map(contact => (
           <li className={styles.item} key={contact.id}>
             <span className={styles.name}>{contact.name}: </span>
-            <span className={styles.phone}>{`tel: ${contact.phone}`} </span>
+            <span className={styles.number}>{`tel: ${contact.number}`} </span>
 
             <button
               className={styles.button}
